@@ -1,0 +1,11 @@
+{
+  "shein_rules": {
+    "percentages": {
+      "standard_commission": 0.16,
+      "new_seller_commission": 0.00
+    },
+    "limits": {
+      "new_seller_days_limit": 30
+    }
+  }
+}

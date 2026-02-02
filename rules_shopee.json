@@ -1,0 +1,18 @@
+{
+  "shopee_rules": {
+    "percentages": {
+      "base_commission": 0.14,
+      "free_shipping_program": 0.06
+    },
+    "fixed_fees": {
+      "standard": 4.00,
+      "cpf_extra": 3.00
+    },
+    "limits": {
+      "commission_cap": 100.00,
+      "cpf_high_volume_threshold_orders": 450,
+      "regressive_threshold_price": 12.00,
+      "standard_low_value_threshold": 8.00
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ml_rules": {
+    "commissions": {
+      "classico": 0.12,
+      "premium": 0.17
+    },
+    "logistics_rules": {
+      "padrao": {
+        "free_shipping_limit": 79.00,
+        "fee_table": [
+          {"operator": "<=", "opValue": 79.00, "type": "fixo", "value": 6.00},
+          {"operator": ">", "opValue": 79.00, "type": "fixo", "value": 0.00}
+        ]
+      }
+    },
+    "estimated_seller_shipping": {
+      "0.5": 18.00,
+      "1.0": 21.00,
+      "2.0": 24.00,
+      "5.0": 34.00
+    }
+  }
+}
